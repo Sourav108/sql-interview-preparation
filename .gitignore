@@ -1,0 +1,33 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE & Editor artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+
+# Database / Query tool artifacts
+*.log
+*.dump
+*.tar
+*.sql.bak
+pg_stat_statements*.csv
+query_history.sql
+
+# Test & Benchmarking temporary outputs
+/target/
+/build/
+.gradle/
+*.class
+benchmarks/output/
+test-results/
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+*.key
